@@ -1,0 +1,36 @@
+<script>
+	//assign values to form inputs
+	var firstName = document.getElementsByID("fNameInput").value;
+	var lastName = document.getElementsByID("lNameInput").value;
+	var hospital = document.getElementsByID("hospitalInput").value;
+	var country = document.getElementsByID("country").value;
+	var state = document.getElementsByID("state").value;
+	
+	//Store form inputs into an array
+	
+		
+	
+	}
+	//Iterate through the array and put a comma between each value
+	
+	//store array into a file with .csv extension
+	
+	//save file in location
+</script>
+<head>
+	<script type= "text/javascript" src = "countries.js"></script>
+</head>
+<body>
+	
+	<form method="post" action="" id="formDL">
+		<input type="text" id="fNameInput" value="First Name"/>
+		<input type="text" id="lNameInput" value="Last Name"/>
+		<input type="text" id="hospitalInput" value="Hospital"/>
+		Select Country:   <select id="country" name ="country"></select>
+		Select State: <select name ="state" id ="state"></select>
+		 <script language="javascript">
+			populateCountries("country", "state");
+		 </script>
+	</form>
+
+</body>
